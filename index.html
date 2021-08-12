@@ -10,26 +10,29 @@
 
 <link rel="stylesheet" type="text/css" href="game.css">
 
-<script src="game_login.js"></script>
+<script src="quiz_game_login.js"></script>
 </head>
 <body background="tDxWBV.jfif">
-	<div id="s">
-	<div>
-<h3>Player 1 Login for the game</h3>
-<label>User Name:</label>	
+	<div id="s" class="gradient-custom">
+	 
+    
+<h3 class="text" >Player 1 Login for the game</h3>
+<label class="text">User Name:</label>	
 <input type="text" id="player1_name_input" class="formcontrol" placeholder="Player 1 Name">
 <br>
-</div>
+
 <div>
-	<h3>Player 2 Login for the game</h3>
-	<label>User Name:</label>	
+	<h3 class="text">Player 2 Login for the game</h3>
+	<label class="text">User Name:</label>	
 	<input type="text" id="player2_name_input" class="formcontrol" placeholder="Player 2 Name" width="0">
 	<br>
+<script src="quiz_game_login.js"></script>
 	</div>
 	<br>
 	<br>
+</div>
+	<button id="bttn" style="width: 10%"  class="gradient-custom-bttn" onclick="addUser()">CONTINUE →</button>
 	
-	<button style="width: 10%" class="btn btn-primary" onclick="addUser()">Log In</button>
 </div>
 </body>
 </html>
